@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Serendipity Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for the Serendipity mobile app." />
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f3ea;
+      --fg: #1a1510;
+      --muted: #5c5348;
+      --line: #d9d0c2;
+      --card: #fffdf8;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14100c;
+        --fg: #f4eddd;
+        --muted: #b7aa98;
+        --line: #3a3229;
+        --card: #1c1712;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.55;
+      background: var(--bg);
+      color: var(--fg);
+    }
+    main {
+      max-width: 44rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1.5rem 1.35rem;
+    }
+    h1 { font-size: 1.75rem; line-height: 1.2; margin: 0 0 0.5rem; }
+    h2 { font-size: 1.15rem; margin: 1.75rem 0 0.65rem; }
+    p, li { color: var(--fg); }
+    .muted { color: var(--muted); font-size: 0.95rem; }
+    ul { padding-left: 1.2rem; }
+    li { margin: 0.35rem 0; }
+    a { color: inherit; }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="card">
+      <h1>Serendipity Privacy Policy</h1>
+      <p class="muted">Effective date: August 11, 2026<br />Last updated: August 11, 2026</p>
+
+      <p>
+        This Privacy Policy describes how the Serendipity mobile application
+        (“<strong>Serendipity</strong>,” “<strong>we</strong>,” “<strong>us</strong>”)
+        handles information. Serendipity is an offline-first personal discovery
+        guide for Burning Man. It is published by the independent developer of
+        the app and is <strong>not</strong> an official Burning Man Project product.
+      </p>
+
+      <h2>1. Summary</h2>
+      <ul>
+        <li>Serendipity does <strong>not</strong> require an account, email, or phone number.</li>
+        <li>Preferences, saves, and sticker-album photos stay <strong>on your device</strong>.</li>
+        <li>We do <strong>not</strong> sell personal information.</li>
+        <li>We do <strong>not</strong> use advertising SDKs or third-party analytics in the app.</li>
+        <li>With a network connection, the app may download an official-event catalog package over HTTPS.</li>
+      </ul>
+
+      <h2>2. Who this policy covers</h2>
+      <p>
+        This policy applies to the Serendipity apps for Android and iOS, including
+        test builds distributed through Google Play internal testing and Apple TestFlight.
+      </p>
+
+      <h2>3. Information we process</h2>
+
+      <h2>3.1 Information stored only on your device</h2>
+      <p>Serendipity stores the following locally on your phone (for example in on-device databases and files):</p>
+      <ul>
+        <li>Onboarding and preference choices (interests, filters, appearance).</li>
+        <li>In-app decisions such as passes, keeps, saves, and related local history.</li>
+        <li>Downloaded catalog / guide data needed for offline use.</li>
+        <li>Optional art sticker-album photos you choose to attach (copied onto the device).</li>
+        <li>App settings and guide version metadata.</li>
+      </ul>
+      <p>
+        We do not operate a Serendipity user account backend that receives this local state.
+        Uninstalling the app, or clearing app data, removes this on-device information
+        (subject to your operating system’s storage rules).
+      </p>
+
+      <h2>3.2 Photos and media library access</h2>
+      <p>
+        If you use the Album feature, Serendipity may request permission to access
+        your photo library so you can pick an image. Selected photos are stored
+        <strong>only on your device</strong> for that feature. Serendipity does not
+        upload album photos to our servers (we do not run a photo upload service for this app).
+      </p>
+
+      <h2>3.3 Network activity</h2>
+      <p>When your device has connectivity, Serendipity may:</p>
+      <ul>
+        <li>
+          Check for and download guide updates from our public package distribution
+          on GitHub (<code>joanacastello/serendipity-packages</code>) over HTTPS.
+        </li>
+        <li>
+          Load certain catalog images from their original HTTPS URLs when you view them
+          (if those URLs are present in the downloaded catalog).
+        </li>
+        <li>
+          Open links you tap (for example an optional tip jar checkout page, or
+          <code>mailto:</code> links shown for places when provided by the catalog).
+        </li>
+      </ul>
+      <p>
+        Checking for guide updates may involve standard network/device signals used by
+        the operating system and libraries to know whether the device is online.
+        Serendipity does not use continuous background GPS tracking, and the in-app map
+        is not designed around collecting your precise live location for a profiling profile.
+      </p>
+
+      <h2>3.4 Information we do not collect in the app</h2>
+      <ul>
+        <li>No Serendipity login, password, or profile account.</li>
+        <li>No advertising identifiers collected by Serendipity for ads.</li>
+        <li>No third-party analytics, crash-reporting, or marketing SDKs embedded for product telemetry in the MVP.</li>
+        <li>No sale of personal information.</li>
+      </ul>
+
+      <h2>4. How information is used</h2>
+      <p>On-device information is used only to provide Serendipity’s features, including:</p>
+      <ul>
+        <li>Personalizing recommendations and filters on your device.</li>
+        <li>Showing Discover, Now, Map, Saved, and Album experiences offline.</li>
+        <li>Keeping your guide data up to date when you have connectivity.</li>
+      </ul>
+
+      <h2>5. Sharing and third parties</h2>
+      <p>
+        Serendipity does not sell personal information and does not share your local
+        preferences or album photos with advertisers.
+      </p>
+      <p>Third parties may process information only in these limited cases:</p>
+      <ul>
+        <li>
+          <strong>GitHub / package hosting.</strong> Guide manifests and catalog files are
+          downloaded from GitHub infrastructure. GitHub may process standard technical
+          request logs (such as IP address, user agent, and timestamps) under GitHub’s own policies
+          when your device fetches those files.
+        </li>
+        <li>
+          <strong>Image hosts.</strong> If you view catalog media, the host serving that HTTPS
+          image may receive a normal network request.
+        </li>
+        <li>
+          <strong>Optional tip jar (Stripe Checkout).</strong> If you choose “buy me a pizza”
+          (or similar) and complete a payment, that checkout runs on Stripe’s pages.
+          Payment card and billing details are handled by Stripe, not by Serendipity’s on-device storage.
+          See Stripe’s privacy documentation for that flow.
+        </li>
+        <li>
+          <strong>App stores.</strong> Google Play and Apple may collect install, account, and
+          device information under their own terms when you download or update Serendipity.
+        </li>
+      </ul>
+
+      <h2>6. Data safety disclosures (Google Play)</h2>
+      <p>For Google Play’s Data safety form, Serendipity’s intended disclosures are:</p>
+      <ul>
+        <li>No data sold.</li>
+        <li>No account data collected by Serendipity.</li>
+        <li>Photos/media: used for the on-device Album feature; not shared off-device by Serendipity.</li>
+        <li>
+          App activity / preferences: processed on-device to operate the app; not transmitted to a
+          Serendipity account backend.
+        </li>
+        <li>
+          Network: guide downloads and optional outbound links as described above.
+        </li>
+      </ul>
+      <p>
+        Exact Play Console checkbox wording should follow this policy. If a store form requires a
+        binary choice that does not fit on-device-only processing, choose the option that most
+        accurately reflects that Serendipity does not collect that data to our servers.
+      </p>
+
+      <h2>7. Retention and deletion</h2>
+      <ul>
+        <li>Local app data remains on your device until you delete it, clear app storage, or uninstall Serendipity.</li>
+        <li>Downloaded guide packages may be replaced when a newer verified package is installed.</li>
+        <li>We do not maintain a Serendipity cloud profile to delete on request, because we do not host one for this app.</li>
+      </ul>
+
+      <h2>8. Security</h2>
+      <p>
+        Guide downloads use HTTPS and on-device integrity checks (including size and checksum verification)
+        before a package becomes active. No method of transmission or storage is 100% secure, especially
+        on a lost or unlocked device.
+      </p>
+
+      <h2>9. Children’s privacy</h2>
+      <p>
+        Serendipity is not directed to children under 13 (and is not intended for users who cannot
+        lawfully use Burning Man–related event content applicable to their age). We do not knowingly
+        collect personal information from children. If you believe a child has provided personal
+        information through the app in a way that concerns you, contact us using the details below.
+      </p>
+
+      <h2>10. International users</h2>
+      <p>
+        The app may be used while traveling. Package hosting and optional payment pages may be
+        operated on infrastructure located in different countries. By using Serendipity, you
+        understand that technical processing for downloads or optional checkouts may occur outside
+        your country of residence.
+      </p>
+
+      <h2>11. Your choices</h2>
+      <ul>
+        <li>Decline photo permission if you do not want Album imports.</li>
+        <li>Stay offline to avoid guide update checks and remote image loads.</li>
+        <li>Clear app data or uninstall to remove local Serendipity data.</li>
+        <li>Do not open the tip jar link if you do not want to use Stripe checkout.</li>
+      </ul>
+
+      <h2>12. Changes to this policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. The “Last updated” date at the top
+        will change when we do. Continued use of Serendipity after an update means you accept the
+        revised policy.
+      </p>
+
+      <h2>13. Contact</h2>
+      <p>
+        For privacy questions about Serendipity, open an issue on the public packages repository:
+      </p>
+      <p>
+        <a href="https://github.com/joanacastello/serendipity-packages/issues">
+          https://github.com/joanacastello/serendipity-packages/issues
+        </a>
+      </p>
+      <p class="muted">
+        Please do not include passwords, payment card numbers, or other sensitive secrets in issues.
+      </p>
+
+      <h2>14. Store listings</h2>
+      <p>
+        This page is intended to satisfy the privacy-policy URL requirement for Google Play and
+        Apple App Store listings for Serendipity (<code>app.serendipity.playa</code>).
+      </p>
+    </article>
+  </main>
+</body>
+</html>
