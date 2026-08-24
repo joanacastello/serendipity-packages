@@ -3,31 +3,32 @@
   "latest": {
     "manifestVersion": 1,
     "contractVersion": "1.0.0",
-    "packageVersion": "2026.08.23-camps.1",
+    "packageVersion": "2026.08.24-camps.1",
     "edition": 2026,
     "phase": "camps",
-    "generatedAt": "2026-08-23T07:49:00.342Z",
-    "sourceFingerprint": "9019e94842720d357eb046abb18b521c3be078fd8639ac497baf8bd5134f97d0",
+    "generatedAt": "2026-08-24T08:06:04.581Z",
+    "sourceFingerprint": "3ae60b202256b8b5cbaa8c3e6a4a8907aabb8221b74ec413254684c568f92173",
     "rulesVersion": "1.0.0",
     "catalogSchemaVersion": 1,
     "minAppContractVersion": "1.0.0",
     "artifact": {
-      "fileName": "catalog-2026.08.23-camps.1.sqlite",
-      "url": "https://github.com/joanacastello/serendipity-packages/releases/download/2026.08.23-camps.1/catalog-2026.08.23-camps.1.sqlite",
-      "sha256": "ea92cc66a0d273b3839d6c2976d2d73bcd1a7cb0f3708539e725007a5b2e33cd",
-      "bytes": 6258688
+      "fileName": "catalog-2026.08.24-camps.1.sqlite",
+      "url": "https://github.com/joanacastello/serendipity-packages/releases/download/2026.08.24-camps.1/catalog-2026.08.24-camps.1.sqlite",
+      "sha256": "84faad02b1b6c668bd271ac17c1bfbb793710afa6c300447e009b4e1e937c3eb",
+      "bytes": 7094272
     },
     "counts": {
-      "events": 2871,
-      "occurrences": 5762,
+      "events": 3402,
+      "occurrences": 6547,
       "camps": 1184,
-      "art": 330,
+      "art": 329,
       "campsWithLocation": 1178,
       "artWithLocation": 0,
       "mapFeatures": 950
     },
     "warnings": [
-      "duplicate-event (5)",
+      "duplicate-event (11)",
+      "orphan-art-reference (2)",
       "orphan-camp-reference (2)"
     ],
     "hasIdentityAliases": false
