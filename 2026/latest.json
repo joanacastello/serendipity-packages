@@ -3,19 +3,19 @@
   "latest": {
     "manifestVersion": 1,
     "contractVersion": "1.2.0",
-    "packageVersion": "2026.11.11-art.1",
+    "packageVersion": "2026.11.12-art.1",
     "edition": 2026,
     "phase": "art",
-    "generatedAt": "2026-11-11T15:17:31.921Z",
-    "sourceFingerprint": "a71eb978e2f54b68cad2a48d7125a1c0dfe918246feaba5a2e496702a74c5a68",
+    "generatedAt": "2026-11-12T16:00:09.870Z",
+    "sourceFingerprint": "edf515df0c219078d5d1c94807074ed0ce7c865991f8a444c4bbaae36c70291a",
     "rulesVersion": "1.1.0",
     "catalogSchemaVersion": 3,
     "minAppContractVersion": "1.2.0",
     "artifact": {
-      "fileName": "catalog-2026.11.11-art.1.sqlite",
-      "url": "https://github.com/joanacastello/serendipity-packages/releases/download/2026.11.11-art.1/catalog-2026.11.11-art.1.sqlite",
-      "sha256": "cf5a9d89f341206f8cf1932eb03f69a2b0956b3ad73e4c936e003c7f689027b7",
-      "bytes": 9396224
+      "fileName": "catalog-2026.11.12-art.1.sqlite",
+      "url": "https://github.com/joanacastello/serendipity-packages/releases/download/2026.11.12-art.1/catalog-2026.11.12-art.1.sqlite",
+      "sha256": "357273a53f29a203f3e3d7659edf1c316c43e17ba019b862f2667bf479fa168d",
+      "bytes": 9400320
     },
     "counts": {
       "events": 3398,
